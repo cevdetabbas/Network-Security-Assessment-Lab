@@ -1,8 +1,8 @@
-# HomeLab-Setup
-HomeLab Setup with a Firewall, SIEM Solution, Exploitable machines and an Attacker.
+# Network-Security-Assessment-Lab
+Network-Security-Assessment-Lab Setup with a Firewall, SIEM Solution, Exploitable machines and an Attacker.
 
-# What is a Homelab?
-A Homelab is an environment meant to simulate enterprise components and configuration. The goal here is to understand the process of installing, configuring, maintaining and updating this entire infrastructure. We are building a virtualized Homelab as it is beginner friendly and easier to configure and spin up.
+# What is a Network-Security-Assessment-Lab
+A Network-Security-Assessment-Lab is an environment meant to simulate enterprise components and configuration. The goal here is to understand the process of installing, configuring, maintaining and updating this entire infrastructure. We are building a virtualized Network-Security-Assessment-Lab as it is beginner friendly and easier to configure and spin up.
 
 # Tools
 - Attacker - Parrot Security OS
@@ -14,7 +14,7 @@ A Homelab is an environment meant to simulate enterprise components and configur
 - Vulnerable Machines - Ubuntu, Windows, DVWA
 
 # Network Design
-![Network Design & Topology](/img/HomeLab.jpg)
+![Network Design & Topology](/img/Network-Security-Assessment-Lab.jpg)
 
 # Guide
 ## Selecting and Downloading a Hypervisor
@@ -31,7 +31,7 @@ You can download VirtualBox at -
 [Virtualbox Download](https://www.virtualbox.org/wiki/Downloads)
 
 ## Installing and Configuring the Firewall - pfsense
-pfsense will act as the edge of our Homelab virtual network and will be only accessible from the Parrot Machine. 
+pfsense will act as the edge of our Network-Security-Assessment-Lab virtual network and will be only accessible from the Parrot Machine. 
 
 pfsense community edition can be downloaded from - [pfsense community edition ISO](https://www.pfsense.org/download/)
 
